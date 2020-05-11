@@ -21,7 +21,7 @@ def main():
     print("\nWelcome " + yourName + ", to the vehicle cost calculator.\n" \
           "Please follow on screen instructions.\n") #Welcome message
 
-    carMake = input("What is the make of the vehicle you are looking to buy? ")
+    carMake = input("please choose the make of the vehicle you are looing for? choose one of following: Dodge, Chevy, Ford, Chevrolet." ) 
     
     basePrice = float(input("What is the base price of the " + carMake + " you are looking to buy? "))
 
@@ -114,7 +114,8 @@ def sellingPriceMod():  #Calculates and prints total cost of the vehicle
 
     print("\nThe total price for your " + carMake + " is $" + str(sellingPrice))    #Prints total cost
 
-
+    print("\nWould you like to buy another car?")
+    
 main()  #Calling the main module
                       
                     
